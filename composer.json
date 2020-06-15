@@ -1,0 +1,23 @@
+{
+    "name": "my/simplebot",
+    "authors": [
+        {
+            "name": "Shoxrux Rashidov",
+            "email": "mail@rashidov.dev"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Bot\\TelegramBot\\": "src/"
+        },
+        "classmap": [
+            "Commands/"
+        ]
+    },
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    }
+}
